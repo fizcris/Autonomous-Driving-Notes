@@ -1,0 +1,3 @@
+[submodule "P1 - Computer Vision/opencv-lane-finding"]
+	path = P1 - Computer Vision/opencv-lane-finding
+	url = https://github.com/fizcris/opencv-lane-finding.git
