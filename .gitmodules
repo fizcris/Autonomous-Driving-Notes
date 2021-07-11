@@ -1,3 +1,6 @@
 [submodule "1 - Computer Vision/opencv-lane-finding"]
 	path = 1 - Computer Vision/opencv-lane-finding
 	url = https://github.com/fizcris/opencv-lane-finding.git
+[submodule "2 - Advanced Computer Vision/CarND-Advanced-Lane-Lines"]
+	path = 2 - Advanced Computer Vision/CarND-Advanced-Lane-Lines
+	url = https://github.com/fizcris/CarND-Advanced-Lane-Lines
