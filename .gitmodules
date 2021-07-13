@@ -4,3 +4,6 @@
 [submodule "2 - Advanced Computer Vision/CarND-Advanced-Lane-Lines"]
 	path = 2 - Advanced Computer Vision/CarND-Advanced-Lane-Lines
 	url = https://github.com/fizcris/CarND-Advanced-Lane-Lines
+[submodule "P24 - Extended Kalman Filter/CarND-Extended-Kalman-Filter-Project"]
+	path = P24 - Extended Kalman Filter/CarND-Extended-Kalman-Filter-Project
+	url = https://github.com/fizcris/CarND-Extended-Kalman-Filter-Project
