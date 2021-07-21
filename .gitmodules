@@ -7,3 +7,6 @@
 [submodule "P24 - Extended Kalman Filter/CarND-Extended-Kalman-Filter-Project"]
 	path = P24 - Extended Kalman Filter/CarND-Extended-Kalman-Filter-Project
 	url = https://github.com/fizcris/CarND-Extended-Kalman-Filter-Project
+[submodule "Q12 - PID control/CarND-PID-Control-Project"]
+	path = Q12 - PID control/CarND-PID-Control-Project
+	url = https://github.com/fizcris/CarND-PID-Control-Project
