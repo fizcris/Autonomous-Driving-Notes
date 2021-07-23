@@ -31,26 +31,29 @@ def run(robot, tau_p, tau_d, tau_i, n=100, speed=1.0):
 Implementation
 
 ```
- while sum(dp) > 0.00001:
+ while sum(dp) > tolerance:
         for i in range(len(p)):
             p[i] += dp[i]
-            robot = make_robot()
-            x_trajectory, y_trajectory, err = run(robot, p)
-            if err  <  best_err:
+            
+            # test modified controller with pant
+            # Obtain error (err)
+
+            # If it gives good result keep increasing 
+            if err  <  best_err: 
                 best_err = err
-                dp[i] *=2
+                dp[i] *=1.1
+            # If results are not good --> Decrease
             else:
                 p[i] -= 2*dp[i]
-                robot = make_robot()
-                x_trajectory, y_trajectory, err = run(robot, p)
+                # test modified controller with pant
+                # Obtain error
                 if err  <  best_err:
                     best_err = err
                     dp[i] *=1.1
+            # If the results are always worse, try smaller parameters 
                 else:
                     p[i] += dp[i]
                     dp[i] *=0.9
-    robot = make_robot()
-    x_trajectory, y_trajectory, best_err = run(robot, p)
 ```
 
 ***
