@@ -28,7 +28,7 @@ Predictions:
 >
 >$y_{t+1} = y_{t} + v_{t} \cdot sin(\psi_t) \cdot dt $
 >
->$\psi_{t+1} = \psi_{t} + \frac{v_{t}}{L_f} \cdot dt $
+>$\psi_{t+1} = \psi_{t} + \frac{v_{t}}{L_f} \cdot \delta \cdot dt $
 >
 >$v_{t+1} = v_{t} + \cdot a_t \cdot dt $
 
